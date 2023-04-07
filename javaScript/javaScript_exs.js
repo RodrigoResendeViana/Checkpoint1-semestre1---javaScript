@@ -104,7 +104,14 @@ let frase2 = frase1.replace("LUGAR", "MUNDO");
 document.write('Frase inicial: ', frase1, '<br>');
 document.write('Frase alterada: ', frase2, '<br><br>')
 
+//Exercício 9:
 
+document.write('Exercício 9:<br>');
+let string = "395.6755432632"; 
+let float = parseFloat(string); 
+let float2 = float.toFixed(2); 
+
+document.write(float2);
 
 
 
