@@ -95,7 +95,14 @@ document.write("Idade: ",idade2,"<br>")
 document.write("Curso: ",curso,"<br>")
 document.write("Ano: ",ano,"<br><br>")
 
+//Exercício 8:
 
+document.write('Exercício 8:<br>');
+
+let frase1 = "O LUGAR VIRA TECNOLOGIA";
+let frase2 = frase1.replace("LUGAR", "MUNDO");
+document.write('Frase inicial: ', frase1, '<br>');
+document.write('Frase alterada: ', frase2, '<br><br>')
 
 
 
