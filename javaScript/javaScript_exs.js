@@ -47,7 +47,21 @@ if (idade <= 12) {
     document.write("Você é um idoso.<br><br>");
 }
 
+//Exercício 5:
 
+document.write('Exercício 5:<br>')
+
+let nome_usuario = "admin";
+let senha_usuario = "1234";
+
+let inserir_usuario = prompt('Digite seu nome de usuário: ')
+let inserir_senha = prompt('Digite sua senha: ')
+
+if (nome_usuario == inserir_usuario & senha_usuario == inserir_senha){
+    document.write('Login realizado com sucesso!<br><br>')
+}else{
+    document.write('Falha de autenticação: nome de usuário e/ou senha incorretos.<br><br>')
+}
 
 
 
