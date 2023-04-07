@@ -31,6 +31,21 @@ if(imc < 18.5) {
     document.write("Seu IMC é ", imc.toFixed(2), "<br>De acordo com seu IMC, você está acima do seu peso ideal<br><br>")
 }
 
+//Exercício 4:
+
+document.write('Exercício 4:<br>');
+
+let idade = (prompt("Digite a sua idade:"));
+
+if (idade <= 12) {
+    document.write("Você é uma criança.<br><br>");
+} else if (idade <= 18) {
+    document.write("Você é um adolescente.<br><br>");
+} else if (idade <= 60) {
+    document.write("Você é um adulto.<br><br>");
+} else {
+    document.write("Você é um idoso.<br><br>");
+}
 
 
 
