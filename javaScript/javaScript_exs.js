@@ -80,6 +80,20 @@ media = media.toFixed(2)
 
 document.write('A sua média foi ', media,"<br><br>");
 
+//Exercício 7:
+
+document.write('Exercício 7:<br>')
+document.body.style.backgroundColor = "blueviolet";
+
+let nome = "Caique Chagas"
+let idade2= 18;
+let curso= "Engenharia de Software"
+let ano= 2023
+
+document.write("Nome: ",nome,"<br>")
+document.write("Idade: ",idade2,"<br>")
+document.write("Curso: ",curso,"<br>")
+document.write("Ano: ",ano,"<br><br>")
 
 
 
