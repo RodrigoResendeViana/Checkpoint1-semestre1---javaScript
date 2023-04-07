@@ -63,7 +63,22 @@ if (nome_usuario == inserir_usuario & senha_usuario == inserir_senha){
     document.write('Falha de autenticação: nome de usuário e/ou senha incorretos.<br><br>')
 }
 
+//Exercício 6:
 
+document.write('Exercício 6:<br>');
+
+nota1 = parseFloat(prompt('Vamos calcular sua média. Digite suas notas     Nota 1:'));
+nota2 = parseFloat(prompt('Nota 2:'));
+nota3 = parseFloat(prompt('Nota 3:'));
+nota4 = parseFloat(prompt('Nota 4:'));
+nota5 = parseFloat(prompt('Nota 5:'));
+nota6 = parseFloat(prompt('Nota 6:'));
+nota7 = parseFloat(prompt('Nota 7:'));
+
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
+media = media.toFixed(2)
+
+document.write('A sua média foi ', media,"<br><br>");
 
 
 
